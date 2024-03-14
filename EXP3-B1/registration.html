@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+    <div id="header">
+        <h1>Registration</h1>
+    </div>
+</head>
+<body>
+    <form name="frm" method="post" action="login.html" onsubmit="return validate()" id="firstform">
+        <fieldset align="center">
+            <table align="center">
+                <tr><td>FIRSTNAME:</td><td><input type="text" name="fname" value="" size="50" required></td></tr>
+                <tr><td>LASTNAME:</td><td><input type="text" name="lname" value="" size="50" required></td></tr>
+                <tr><td>PHONENUMBER:</td><td><input type="text" name="phone" value="" size="50" required></td></tr>
+                <tr><td>MAILID:</td><td><input type="email" name="mailid" value="" size="50" required></td></tr>
+                <tr><td>DOB:</td><td><input type="date" name="dob" value="" size="50"></td></tr>
+                <tr><td>GENDER:</td><td>MALE: <input type="radio" name="gender" value="male"></td><td>FEMALE: <input type="radio" name="gender" value="FEMALE"></td></tr>
+                <tr><td>USERNAME:</td><td><input type="text" name="uname" value="" size="50" required></td></tr>
+                <tr><td>PASSWORD:</td><td><input type="password" name="password" value="" size="50" required></td></tr>
+                <tr><td>AGE:</td><td><input type="text" name="age" value="" size="50" required></td></tr>
+                
+            </table>
+            <input type="submit" value="SUBMIT" name="submit">
+        </fieldset>
+
+    </form>
+    <script src="registration.js"></script>
+
+    
+</body>
+<div id="footer">
+    copyright@cmrit_2024
+</div>
+</html>
